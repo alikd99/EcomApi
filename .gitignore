@@ -1,0 +1,29 @@
+# Build artifacts
+bin/
+obj/
+
+# VS Code settings
+.vscode/
+
+# Visual Studio (لو فتحت المشروع عليه مستقبلاً)
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# SQLite local DB files
+*.db
+*.db-shm
+*.db-wal
+
+# Local-only settings
+appsettings.*.local.json
+
+# HTTP request scratch files (اختياري)
+*.http
+
+# User secrets files (احتياط)
+**/secrets.json
